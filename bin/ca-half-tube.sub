@@ -1,0 +1,6 @@
+#! /bin/sh
+echo ca-loop --close=1 --tube=500 $1,4- $1,4-\* --out=$1,4.gen
+ca-loop --close=1 --tube=500 $1,4- $1,4-\* --out=$1,4.gen
+echo ca-sort "<" $1,4.gen "|" ca-uniq ">" $1,4.$2
+ca-sort < $1,4.gen | ca-uniq > $1,4.$2
+rm -f $1,4.gen

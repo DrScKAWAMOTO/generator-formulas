@@ -1,0 +1,48 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# editor mergetool backup files
+*~
+*.bak
+*.orig
+
+# Executables
+*.exe
+*.out
+*.app
+*.core
+
+# Project Specific temporary files
+*.gen
+
+# Project Specific extra files
+/generator-formulas/ca-tubes.mirror/T?,?,?
+/generator-formulas/ca-tubes.mirror/T1?,?,?
+/generator-formulas/ca-tubes.mirror/T?,1?,?
+
+# OS oriented files
+.DS_Store
+
+# Qt Tools oriented files
+.qmake.stash

@@ -1,0 +1,25 @@
+#! /bin/sh
+echo "configured that mirror image is also list up"
+time ca-loop --symmetric=100 S1- S5- --out=symmetric=100.gen
+ca-sort < symmetric=100.gen | ca-uniq > symmetric=100.gf
+ca-mirror < symmetric=100.gf > symmetric=100.pair
+rm -f symmetric=100.gen
+time ca-loop --symmetric=200 S1- S5- --out=symmetric=200.gen
+ca-sort < symmetric=200.gen | ca-uniq > symmetric=200.gf
+ca-mirror < symmetric=200.gf > symmetric=200.pair
+rm -f symmetric=200.gen
+time ca-loop --symmetric=500 S1- S5- --out=symmetric=500.gen
+ca-sort < symmetric=500.gen | ca-uniq > symmetric=500.gf
+ca-mirror < symmetric=500.gf > symmetric=500.pair
+rm -f symmetric=500.gen
+time ca-loop --symmetric=1000 S1- S5- --out=symmetric=1000.gen
+ca-sort < symmetric=1000.gen | ca-uniq > symmetric=1000.gf
+ca-mirror < symmetric=1000.gf > symmetric=1000.pair
+rm -f symmetric=1000.gen
+time ca-loop --ordinary=100 A1- A2- --out=ordinary=100.gen
+ca-sort < ordinary=100.gen | ca-uniq > ordinary=100.gf
+ca-mirror < ordinary=100.gf > ordinary=100.pair
+rm -f ordinary=100.gen
+cat ordinary=100.gf symmetric=100.gf | ca-sort | ca-uniq > ordinary=100+symmetric=100.gf
+ca-mirror < ordinary=100+symmetric=100.gf > ordinary=100+symmetric=100.pair
+echo "configured that mirror image is also list up"

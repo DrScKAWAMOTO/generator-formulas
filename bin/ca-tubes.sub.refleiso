@@ -1,0 +1,15 @@
+#! /bin/sh
+mkdir -p ca-tubes.refleiso
+cd ca-tubes.refleiso
+../bin/ca-tube.sub T10,0 refleiso.gf
+../bin/ca-tube.sub2 T9,1 T1,9 refleiso.gf
+../bin/ca-tube.sub2 T8,2 T2,8 refleiso.gf
+../bin/ca-tube.sub2 T7,3 T3,7 refleiso.gf
+../bin/ca-tube.sub2 T6,4 T4,6 refleiso.gf
+../bin/ca-tube.sub2 T5,5 refleiso.gf
+../bin/ca-tube.sub T11,0 refleiso.gf
+../bin/ca-tube.sub2 T10,1 T1,10 refleiso.gf
+../bin/ca-tube.sub2 T9,2 T2,9 refleiso.gf
+../bin/ca-tube.sub2 T8,3 T3,8 refleiso.gf
+../bin/ca-tube.sub2 T7,4 T4,7 refleiso.gf
+../bin/ca-tube.sub2 T6,5 T5,6 refleiso.gf

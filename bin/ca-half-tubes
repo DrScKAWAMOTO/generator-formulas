@@ -1,0 +1,7 @@
+#! /bin/sh
+COUNT=`ca-uniq -v 2>&1 | grep isomorphic | wc | awk '{ print $1; }'`
+if [ "$COUNT" = "1" ]; then
+  ./bin/ca-half-tubes.sub.refleiso
+else
+  ./bin/ca-half-tubes.sub.mirror
+fi

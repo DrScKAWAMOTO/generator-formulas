@@ -1,0 +1,9 @@
+#! /bin/sh
+rm -f *.work
+../bin/ca-tube.sub $1 work
+../bin/ca-tube.sub $2 work
+WORK=`echo $1,?.work`
+GF=${WORK%.work}.$3
+echo cat *.work "|" ca-sort "|" ca-uniq ">" $GF
+cat *.work | ca-sort | ca-uniq > $GF
+rm -f *.work
