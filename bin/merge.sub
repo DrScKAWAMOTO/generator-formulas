@@ -1,0 +1,3 @@
+#! /bin/sh
+cat ordinary=$1.gf bond-symmetric=$1.gf carbon-symmetric=$1.gf ring-symmetric=$1.gf > merged=$1.gen
+./bin/gen2pddgf merged=$1

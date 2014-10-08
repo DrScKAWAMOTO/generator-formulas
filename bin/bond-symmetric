@@ -1,0 +1,6 @@
+#! /bin/sh
+time ./bin/bond-symmetric.sub 100
+time ./bin/bond-symmetric.sub 120
+time ./bin/bond-symmetric.sub 200
+#time ./bin/bond-symmetric.sub 500
+#time ./bin/bond-symmetric.sub 1000

@@ -1,0 +1,45 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C67 (NoA=1,MirrorSymmetric,Pdd=6;4;8;4;4;6;4) T11,0,1-5b6b5b6b5b6b5b6b5b6h5b6b
+C71 (NoA=1,Mirror=T11,0,1-5b6b5b6c5b6b5b6j5b6b5b,Pdd=6;4;8;6;4;2;2;4) T11,0,1-5b6b5b6c5b6b5b6i5b6b5b6b
+C71 (NoA=1,Mirror=T11,0,1-5b6b5b6c5b6b5b6i5b6b5b6b,Pdd=6;4;8;6;4;2;2;4) T11,0,1-5b6b5b6c5b6b5b6j5b6b5b
+C71 (NoA=1,MirrorSymmetric,Pdd=6;4;8;4;6;4;0;4) T11,0,1-5b6b5b6c5b6c5b6g5b6c5b6b
+C73 (NoA=1,Mirror=T11,0,1-5b6b5b6e5b6f5b6b5b6b5b6d,Pdd=6;8;4;6;0;8;2;0;2) T11,0,1-5b6b5b6d5b6h5b6b5b6b5b6c
+C73 (NoA=1,Mirror=T11,0,1-5b6b5b6d5b6h5b6b5b6b5b6c,Pdd=6;8;4;6;0;8;2;0;2) T11,0,1-5b6b5b6e5b6f5b6b5b6b5b6d
+C73 (NoA=1,MirrorSymmetric,Pdd=6;10;0;8;2;4;6) T11,0,1-5b6c5b6d5b6e5b6c5b6b5b6d
+C75 (NoA=1,MirrorSymmetric,Pdd=6;4;8;4;4;8;0;0;2) T11,0,1-5b6c5b6c5b6j5b6b5b6b5b6b
+C75 (NoA=1,Mirror=T11,0,1-5b6c5b6d5b6h5b6c5b6b5b6b,Pdd=6;6;4;8;4;2;6) T11,0,1-5b6c5b6d5b6g5b6c5b6b5b6c
+C75 (NoA=1,MirrorSymmetric,Pdd=6;8;2;4;8;4;4) T11,0,1-5b6c5b6d5b6g5b6d5b6c5b
+C75 (NoA=1,Mirror=T11,0,1-5b6c5b6d5b6g5b6c5b6b5b6c,Pdd=6;6;4;8;4;2;6) T11,0,1-5b6c5b6d5b6h5b6c5b6b5b6b
+C77 (NoA=1,MirrorSymmetric,Pdd=6;6;4;8;4;4;2;0;2) T11,0,1-5b6c5b6c5b6k5b6b5b6b5b6b
+C79 (NoA=1,MirrorSymmetric,Pdd=6;4;10;4;0;6;2;4) T11,0,1-5b6d5b6k5b6b5b6b5b6b5b6c
+C79 (NoA=1,Mirror=T11,0,1-5b6e5b6i5b6c5b6b5b6b5b6c,Pdd=6;6;6;6;2;6;0;2;2) T11,0,1-5b6e5b6g5b6d5b6b5b6c5b6c
+C79 (NoA=1,Mirror=T11,0,1-5b6e5b6h5b6d5b6b5b6c5b6b,Pdd=6;6;4;10;2;4;0;2;2) T11,0,1-5b6e5b6h5b6c5b6b5b6b5b6d
+C79 (NoA=1,MirrorSymmetric,Pdd=6;8;2;8;6;0;0;4;2) T11,0,1-5b6e5b6h5b6c5b6c5b6d5b
+C79 (NoA=1,Mirror=T11,0,1-5b6e5b6h5b6c5b6b5b6b5b6d,Pdd=6;6;4;10;2;4;0;2;2) T11,0,1-5b6e5b6h5b6d5b6b5b6c5b6b
+C79 (NoA=1,Mirror=T11,0,1-5b6e5b6g5b6d5b6b5b6c5b6c,Pdd=6;6;6;6;2;6;0;2;2) T11,0,1-5b6e5b6i5b6c5b6b5b6b5b6c
+C81 (NoA=1,Mirror=T11,0,1-5b6d5b6l5b6c5b6c5b6b5b,Pdd=6;10;2;2;6;4;2;4) T11,0,1-5b6d5b6k5b6c5b6b5b6c5b6b
+C81 (NoA=1,MirrorSymmetric,Pdd=6;4;8;8;0;4;2;4) T11,0,1-5b6d5b6l5b6b5b6b5b6b5b6c
+C81 (NoA=1,Mirror=T11,0,1-5b6d5b6k5b6c5b6b5b6c5b6b,Pdd=6;10;2;2;6;4;2;4) T11,0,1-5b6d5b6l5b6c5b6c5b6b5b
+C81 (NoA=1,Mirror=T11,0,1-5b6e5b6i5b6d5b6b5b6c5b6b,Pdd=6;8;4;6;0;8;2;0;2) T11,0,1-5b6e5b6g5b6e5b6e5b6b5b
+C81 (NoA=1,Mirror=T11,0,1-5b6e5b6g5b6e5b6e5b6b5b,Pdd=6;8;4;6;0;8;2;0;2) T11,0,1-5b6e5b6i5b6d5b6b5b6c5b6b
+C85 (NoA=1,MirrorSymmetric,Pdd=6;10;0;8;2;4;6) T11,0,1-5b6d5b6m5b6d5b6b5b6b5b6b
+C85 (NoA=1,MirrorSymmetric,Pdd=6;0;14;4;2;6;0;4) T11,0,1-5b6m5b6b5b6b5b6b5b6g5b
+C87 (NoA=1,Mirror=T11,0,1-5b6n5b6c5b6b5b6c5b6b5b6d,Pdd=6;8;2;8;4;2;4;2) T11,0,1-5b6m5b6b5b6c5b6f5b6b5b6b
+C87 (NoA=1,Mirror=T11,0,1-5b6n5b6b5b6c5b6c5b6c5b6c,Pdd=6;6;4;10;2;4;2;0;2) T11,0,1-5b6m5b6c5b6b5b6e5b6c5b6b
+C87 (NoA=1,MirrorSymmetric,Pdd=6;10;0;4;8;6;0;0;2) T11,0,1-5b6m5b6c5b6c5b6d5b6b5b6c
+C87 (NoA=1,MirrorSymmetric,Pdd=6;2;12;4;0;10;0;0;0;2) T11,0,1-5b6n5b6b5b6b5b6c5b6f5b
+C87 (NoA=1,MirrorSymmetric,Pdd=6;6;4;8;4;6;0;0;2) T11,0,1-5b6n5b6b5b6b5b6d5b6d5b6b
+C87 (NoA=1,Mirror=T11,0,1-5b6m5b6c5b6b5b6e5b6c5b6b,Pdd=6;6;4;10;2;4;2;0;2) T11,0,1-5b6n5b6b5b6c5b6c5b6c5b6c
+C87 (NoA=1,Mirror=T11,0,1-5b6m5b6b5b6c5b6f5b6b5b6b,Pdd=6;8;2;8;4;2;4;2) T11,0,1-5b6n5b6c5b6b5b6c5b6b5b6d
+C89 (NoA=1,Mirror=T11,0,1-5b6o5b6c5b6c5b6b5b6b5b6d,Pdd=6;8;4;4;4;6;0;4) T11,0,1-5b6n5b6c5b6d5b6c5b6b5b6c
+C89 (NoA=1,MirrorSymmetric,Pdd=6;4;10;4;0;8;0;4) T11,0,1-5b6o5b6b5b6d5b6b5b6c5b6c
+C89 (NoA=1,Mirror=T11,0,1-5b6n5b6c5b6d5b6c5b6b5b6c,Pdd=6;8;4;4;4;6;0;4) T11,0,1-5b6o5b6c5b6c5b6b5b6b5b6d
+C91 (NoA=1,Mirror=T11,0,1-5b6o5b6d5b6d5b6b5b6c5b6b,Pdd=6;10;2;4;4;4;2;4) T11,0,1-5b6m5b6d5b6g5b6b5b6b5b6b
+C91 (NoA=1,MirrorSymmetric,Pdd=6;6;6;8;0;4;2;4) T11,0,1-5b6o5b6b5b6e5b6e5b6b5b
+C91 (NoA=1,Mirror=T11,0,1-5b6m5b6d5b6g5b6b5b6b5b6b,Pdd=6;10;2;4;4;4;2;4) T11,0,1-5b6o5b6d5b6d5b6b5b6c5b6b
+C93 (NoA=1,MirrorSymmetric,Pdd=6;12;2;0;6;2;0;6;0;2) T11,0,1-5b6p5b6e5b6c5b6b5b6c5b6b
+C93 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;0;4;0;4;0;2) T11,0,1-5b6p5b6f5b6b5b6b5b6b5b6c
+C97 (NoA=1,MirrorSymmetric,Pdd=6;10;2;4;4;6;0;2;0;2) T11,0,1-5b6p5b6g5b6d5b6b5b6b5b6b
+C105 (NoA=1,MirrorSymmetric,Pdd=6;14;0;0;6;4;0;4;2) T11,0,1-5b6x5b6c5b6d5b6b5b6b5b6b

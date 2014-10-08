@@ -1,0 +1,3 @@
+#! /bin/sh
+ca-loop --symmetric=$1 S1- S5-\* --out=ring-symmetric=$1.gen
+./bin/gen2pddgf ring-symmetric=$1

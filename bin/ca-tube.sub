@@ -1,4 +1,5 @@
 #! /bin/sh
-../bin/ca-tube.pre $1,4 $2
-../bin/ca-tube.pre $1,5 $2
-../bin/ca-tube.post $1,4 $2
+AFTER=`expr -e $2 + 1`
+../bin/ca-tube.pre $1,$2 $3
+../bin/ca-tube.pre $1,$AFTER $3
+../bin/ca-tube.post $1,$2 $3

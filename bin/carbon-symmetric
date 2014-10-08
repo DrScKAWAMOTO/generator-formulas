@@ -1,0 +1,6 @@
+#! /bin/sh
+time ./bin/carbon-symmetric.sub 100
+time ./bin/carbon-symmetric.sub 120
+time ./bin/carbon-symmetric.sub 200
+#time ./bin/carbon-symmetric.sub 500
+#time ./bin/carbon-symmetric.sub 1000

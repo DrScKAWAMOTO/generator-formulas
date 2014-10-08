@@ -1,0 +1,12 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C56 (NoA=2,Mirror=T8,2,1-5b6c5b6b5b6c5b6b5b6b5b6b,Pdd=6;18;0;0;10;0;0;2) T2,8,1-5b6c5c6d5b6c5b6b5b
+C56 (NoA=2,Mirror=T2,8,1-5b6c5c6d5b6c5b6b5b,Pdd=6;18;0;0;10;0;0;2) T8,2,1-5b6c5b6b5b6c5b6b5b6b5b6b
+C60 (NoA=2,Pdd=6;18;0;0;10;0;0;2) T8,2,1-6b5b6c5b6b5b6c5b6b5b6c5b6b
+C64 (NoA=2,Mirror=T8,2,1-6c5b6e5b6c5b6b5b6b5b6b5b6b,Pdd=6;18;0;0;10;0;0;2) T2,8,1-6b5b6e5b6d5b6b5b6b5b6b5b6b
+C64 (NoA=2,Mirror=T2,8,1-6b5b6e5b6d5b6b5b6b5b6b5b6b,Pdd=6;18;0;0;10;0;0;2) T8,2,1-6c5b6e5b6c5b6b5b6b5b6b5b6b
+C68 (NoA=2,Mirror=T8,2,1-6d5b6e5b6c5b6b5b6b5b6b5b6c,Pdd=6;18;0;0;10;0;0;2) T2,8,1-5b6d5b6g5b6c5c6b5b6c
+C68 (NoA=2,Mirror=T2,8,1-5b6d5b6g5b6c5c6b5b6c,Pdd=6;18;0;0;10;0;0;2) T8,2,1-6d5b6e5b6c5b6b5b6b5b6b5b6c
+C72 (NoA=2,Mirror=T8,2,1-6e5b6e5b6c5b6d5b6b5b6b5b6b,Pdd=6;18;0;0;10;0;0;2) T2,8,1-6f5b6d5b6b5b6c5b6d5b6b5b6b
+C72 (NoA=2,Mirror=T2,8,1-6f5b6d5b6b5b6c5b6d5b6b5b6b,Pdd=6;18;0;0;10;0;0;2) T8,2,1-6e5b6e5b6c5b6d5b6b5b6b5b6b

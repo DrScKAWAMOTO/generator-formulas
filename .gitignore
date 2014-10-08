@@ -35,11 +35,11 @@
 
 # Project Specific temporary files
 *.gen
+*.gf
+*.pair
 
 # Project Specific extra files
-/generator-formulas/ca-tubes.mirror/T?,?,?
-/generator-formulas/ca-tubes.mirror/T1?,?,?
-/generator-formulas/ca-tubes.mirror/T?,1?,?
+/ca-tubes*/T*,*,?
 
 # OS oriented files
 .DS_Store

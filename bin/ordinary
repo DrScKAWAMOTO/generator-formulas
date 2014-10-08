@@ -1,0 +1,3 @@
+#! /bin/sh
+time ./bin/ordinary.sub 100
+time ./bin/ordinary.sub 120

@@ -1,0 +1,25 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C65 (NoA=1,Mirror=T6,5,1-5b6b5b6b5b6b5b6b5b6h5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6b5b6d5b6b5b6b5c6f5b
+C65 (NoA=1,Mirror=T5,6,1-6b5b6d5b6b5b6b5c6f5b,Pdd=6;14;2;4;6;2;2) T6,5,1-5b6b5b6b5b6b5b6b5b6h5b
+C67 (NoA=1,Mirror=T6,5,1-6c5b6b5b6b5b6c5b6b5b6f5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6c5b6e5b6b5c6b5b6e5b
+C67 (NoA=1,Mirror=T5,6,1-6c5b6e5b6b5c6b5b6e5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6c5b6b5b6b5b6c5b6b5b6f5b
+C69 (NoA=1,Mirror=T6,5,1-6c5b6b5b6c5b6d5b6e5b6b5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6e5b6e5c6b5c6e5b
+C69 (NoA=1,Mirror=T5,6,1-6e5b6e5c6b5c6e5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6c5b6b5b6c5b6d5b6e5b6b5b
+C71 (NoA=1,Mirror=T6,5,1-6c5b6c5b6f5b6d5b6b5b6b5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6g5b6d5b6b5c6b5b6d5b
+C71 (NoA=1,Mirror=T5,6,1-6g5b6d5b6b5c6b5b6d5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6c5b6c5b6f5b6d5b6b5b6b5b
+C73 (NoA=1,Mirror=T6,5,1-6d5b6h5b6c5b6b5b6b5b6b5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6i5b6d5c6b5b6b5b6c5b
+C73 (NoA=1,Mirror=T5,6,1-6i5b6d5c6b5b6b5b6c5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6d5b6h5b6c5b6b5b6b5b6b5b
+C75 (NoA=1,Mirror=T6,5,1-6b5b6l5b6b5b6b5b6b5b6b5b,Pdd=6;14;2;4;6;2;2) T5,6,1-5b6l5b6b5b6b5b6b5b6c5b
+C75 (NoA=1,Mirror=T5,6,1-5b6l5b6b5b6b5b6b5b6c5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6b5b6l5b6b5b6b5b6b5b6b5b
+C77 (NoA=1,Mirror=T6,5,1-6k5b6b5b6b5b6b5b6b5b6d5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6d5b6h5b6c5b6b5b6b5b6d5b
+C77 (NoA=1,Mirror=T5,6,1-6d5b6h5b6c5b6b5b6b5b6d5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6k5b6b5b6b5b6b5b6b5b6d5b
+C79 (NoA=1,Mirror=T6,5,1-6i5b6d5b6b5b6b5b6d5b6b5b6b,Pdd=6;14;2;4;6;2;2) T5,6,1-6f5b6f5b6c5b6b5b6b5b6e5b
+C79 (NoA=1,Mirror=T5,6,1-6f5b6f5b6c5b6b5b6b5b6e5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6i5b6d5b6b5b6b5b6d5b6b5b6b
+C81 (NoA=1,Mirror=T6,5,1-6g5b6f5b6b5b6d5b6b5b6b5b6c,Pdd=6;14;2;4;6;2;2) T5,6,1-6h5b6d5b6c5b6b5b6b5b6f5b
+C81 (NoA=1,Mirror=T5,6,1-6h5b6d5b6c5b6b5b6b5b6f5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6g5b6f5b6b5b6d5b6b5b6b5b6c
+C83 (NoA=1,Mirror=T6,5,1-6e5b6h5b6d5b6b5b6b5b6b5b6d,Pdd=6;14;2;4;6;2;2) T5,6,1-6j5b6b5b6c5b6b5b6b5b6g5b
+C83 (NoA=1,Mirror=T5,6,1-6j5b6b5b6c5b6b5b6b5b6g5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6e5b6h5b6d5b6b5b6b5b6b5b6d
+C85 (NoA=1,Mirror=T6,5,1-6c5b6l5b6b5b6b5b6b5b6f5b,Pdd=6;14;2;4;6;2;2) T5,6,1-6k5b6d5b6b5b6b5b6b5b6f5b
+C85 (NoA=1,Mirror=T5,6,1-6k5b6d5b6b5b6b5b6b5b6f5b,Pdd=6;14;2;4;6;2;2) T6,5,1-6c5b6l5b6b5b6b5b6b5b6f5b

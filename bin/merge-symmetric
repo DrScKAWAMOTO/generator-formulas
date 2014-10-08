@@ -1,0 +1,4 @@
+#! /bin/sh
+time ./bin/merge-symmetric.sub 100
+time ./bin/merge-symmetric.sub 120
+#time ./bin/merge-symmetric.sub 200

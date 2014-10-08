@@ -1,0 +1,10 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C60 (NoA=5,MirrorSymmetric,Pdd=6;0;20;0;0;10) T10,0,1-5b6b5b6b5b6b5b6b5b6g5b
+C62 (NoA=2,MirrorSymmetric,Pdd=6;8;6;8;4;0;4) T10,0,1-5b6b5b6c5b6b5b6e5b6c5b6b
+C62 (NoA=1,MirrorSymmetric,Pdd=6;10;4;4;8;2;2) T10,0,1-5b6b5b6b5b6c5b6f5b6b5b6b
+C66 (NoA=1,MirrorSymmetric,Pdd=6;10;6;4;2;4;4) T10,0,1-5b6b5b6d5b6g5b6b5b6b5b6b
+C68 (NoA=2,MirrorSymmetric,Pdd=6;12;4;4;0;8;0;0;2) T10,0,1-5b6e5b6f5b6b5b6b5b6b5b6c
+C72 (NoA=2,MirrorSymmetric,Pdd=6;10;4;8;2;4;0;0;2) T10,0,1-5b6e5b6g5b6d5b6b5b6b5b6b
+C80 (NoA=1,MirrorSymmetric,Pdd=6;14;0;4;6;4;2) T10,0,1-5b6m5b6c5b6d5b6b5b6b5b6b

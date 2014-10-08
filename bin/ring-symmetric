@@ -1,0 +1,6 @@
+#! /bin/sh
+time ./bin/ring-symmetric.sub 100
+time ./bin/ring-symmetric.sub 120
+time ./bin/ring-symmetric.sub 200
+#time ./bin/ring-symmetric.sub 500
+#time ./bin/ring-symmetric.sub 1000

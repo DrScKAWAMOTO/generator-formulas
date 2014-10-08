@@ -1,0 +1,8 @@
+#! /bin/sh
+echo ca-sort "<" $1.gen "|" ca-uniq ">" $1.gf
+ca-sort < $1.gen | ca-uniq > $1.gf
+echo ca-mirror "<" $1.gf ">" $1.pair
+ca-mirror < $1.gf > $1.pair
+echo ca-char --pentagon-distances --pair=$1.pair $1.gf ">" $1.pddgf
+ca-char --pentagon-distances --pair=$1.pair $1.gf > $1.pddgf
+rm -f $1.gen

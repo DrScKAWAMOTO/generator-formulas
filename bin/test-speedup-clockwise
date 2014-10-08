@@ -1,0 +1,13 @@
+#! /bin/sh
+echo ca-generator --symmetric=80 ">" $1.gensym.log
+ca-generator --symmetric=80 > $1.gensym.log
+echo ca-generator --ordinary=80 ">" $1.genord.log
+ca-generator --ordinary=80 > $1.genord.log
+echo ca-uniq "<" merged-symmetric=100.gf ">" $1.ms100.log
+ca-uniq < merged-symmetric=100.gf > $1.ms100.log
+echo ca-uniq "<" ordinary=100.gf ">" $1.ord100.log
+ca-uniq < ordinary=100.gf > $1.ord100.log
+echo ca-uniq "<" merged=100.gf ">" $1.m100.log
+ca-uniq < merged=100.gf > $1.m100.log
+echo echo Y "|" ca-uniq ">" $1.Y.log
+echo Y | ca-uniq > $1.Y.log

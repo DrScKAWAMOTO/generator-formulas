@@ -1,0 +1,3 @@
+#! /bin/sh
+ca-loop --ordinary=$1 A1- A1-\* --out=ordinary=$1.gen
+./bin/gen2pddgf ordinary=$1

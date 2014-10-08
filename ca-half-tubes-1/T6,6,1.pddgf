@@ -1,0 +1,36 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C60 (NoA=6,MirrorSymmetric,Pdd=6;12;0;0;12;6) T6,6,1-5b6b5b6b5b6b5b6b5b6b5b6c
+C66 (NoA=2,MirrorSymmetric,Pdd=6;14;0;0;8;4;0;4) T6,6,1-5b6b5b6d5b6b5b6d5b6b5b6b
+C66 (NoA=2,MirrorSymmetric,Pdd=6;6;8;8;0;4;0;4) T6,6,1-5b6b5b6d5b6b5b6e5b6b5b
+C70 (NoA=3,MirrorSymmetric,Pdd=6;0;18;0;0;12) T6,6,1-5b6d5b6d5b6e5b6b5b6b5b
+C70 (NoA=1,MirrorSymmetric,Pdd=6;12;0;8;2;4;4) T6,6,1-5b6b5b6c5b6b5b6b5b6h5b
+C72 (NoA=6,MirrorSymmetric,Pdd=6;12;0;0;12;6) T6,6,1-6b5b6b5b6b5b6b5b6b5b6b5b6h
+C72 (NoA=3,MirrorSymmetric,Pdd=6;12;0;0;12;6) T6,6,1-5b6d5b6d5b6d5b6b5b6b5b6c
+C72 (NoA=2,MirrorSymmetric,Pdd=6;4;10;8;0;6;0;0;2) T6,6,1-5b6c5b6c5b6c5b6c5b6c5b6d
+C72 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-5b6c5b6b5b6b5b6b5b6c5b6g
+C72 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-5b6c5b6b5b6c5b6d5b6d5b6c
+C72 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-5b6d5b6c5b6b5b6d5b6e5b
+C74 (NoA=2,MirrorSymmetric,Pdd=6;4;12;4;0;8;0;0;0;2) T6,6,1-5b6f5b6g5b6b5b6b5b6b5b
+C74 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;4;0;0;2) T6,6,1-5b6f5b6c5b6d5b6b5b6d5b
+C76 (NoA=1,MirrorSymmetric,Pdd=6;10;4;4;2;6;4) T6,6,1-5b6h5b6e5b6b5b6b5b6c5b
+C76 (NoA=1,MirrorSymmetric,Pdd=6;6;10;4;0;6;0;4) T6,6,1-6b5b6b5b6e5b6h5b6b5b6b5b
+C78 (NoA=2,MirrorSymmetric,Pdd=6;14;0;0;10;0;0;4;0;2) T6,6,1-5b6f5b6f5b6b5b6b5b6b5b6d
+C78 (NoA=2,MirrorSymmetric,Pdd=6;6;8;8;0;4;0;4) T6,6,1-6b5b6b5b6d5b6b5b6f5b6d5b6c
+C78 (NoA=1,MirrorSymmetric,Pdd=6;10;4;4;4;4;0;4) T6,6,1-5b6e5b6b5b6e5b6b5b6d5b6d
+C82 (NoA=3,MirrorSymmetric,Pdd=6;0;18;0;0;12) T6,6,1-6b5b6d5b6d5b6e5b6c5b6c5b6d
+C82 (NoA=1,MirrorSymmetric,Pdd=6;12;2;4;2;8;0;0;2) T6,6,1-5b6l5b6c5b6b5b6b5b6d5b
+C82 (NoA=1,MirrorSymmetric,Pdd=6;12;0;8;2;4;4) T6,6,1-6b5b6b5b6m5b6b5b6b5b6c5b
+C84 (NoA=2,MirrorSymmetric,Pdd=6;4;10;8;0;6;0;0;2) T6,6,1-6b5b6f5b6h5b6e5b6b5b6b5b
+C84 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-6b5b6d5b6i5b6d5b6b5b6d5b
+C84 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-6b5b6d5b6m5b6b5b6b5b6b5b
+C84 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;2;4) T6,6,1-6b5b6n5b6b5b6b5b6b5b6b5b6b
+C86 (NoA=2,MirrorSymmetric,Pdd=6;4;12;4;0;8;0;0;0;2) T6,6,1-6b5b6f5b6g5b6b5b6c5b6b5b6e
+C86 (NoA=1,MirrorSymmetric,Pdd=6;8;4;8;4;4;0;0;2) T6,6,1-6b5b6f5b6g5b6b5b6d5b6e5b
+C88 (NoA=1,MirrorSymmetric,Pdd=6;10;4;4;2;6;4) T6,6,1-6b5b6d5b6l5b6b5b6b5b6b5b6d
+C88 (NoA=1,MirrorSymmetric,Pdd=6;6;10;4;0;6;0;4) T6,6,1-6b5b6m5b6c5b6b5b6c5b6c5b6b
+C90 (NoA=1,MirrorSymmetric,Pdd=6;14;0;0;10;2;0;4) T6,6,1-5b6n5b6b5b6b5b6b5b6g5b
+C90 (NoA=1,MirrorSymmetric,Pdd=6;10;4;4;4;4;0;4) T6,6,1-6b5b6p5b6b5b6d5b6b5b6b5b
+C94 (NoA=1,MirrorSymmetric,Pdd=6;12;2;4;2;8;0;0;2) T6,6,1-6b5b6o5b6b5b6b5b6c5b6f5b
+C102 (NoA=1,MirrorSymmetric,Pdd=6;14;0;0;10;2;0;4) T6,6,1-6b5b6x5b6b5b6b5b6b5b6b5b

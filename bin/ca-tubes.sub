@@ -1,0 +1,21 @@
+#! /bin/sh
+mkdir -p ca-tubes-$1
+cd ca-tubes-$1
+../bin/ca-tube.sub T10,0 $1 gen
+../bin/ca-tubes.sub2 T9,1 T1,9 $1 gen
+../bin/ca-tubes.sub2 T8,2 T2,8 $1 gen
+../bin/ca-tubes.sub2 T7,3 T3,7 $1 gen
+../bin/ca-tubes.sub2 T6,4 T4,6 $1 gen
+../bin/ca-tube.sub T5,5 $1 gen
+../bin/ca-tube.sub T11,0 $1 gen
+../bin/ca-tubes.sub2 T10,1 T1,10 $1 gen
+../bin/ca-tubes.sub2 T9,2 T2,9 $1 gen
+../bin/ca-tubes.sub2 T8,3 T3,8 $1 gen
+../bin/ca-tubes.sub2 T7,4 T4,7 $1 gen
+../bin/ca-tubes.sub2 T6,5 T5,6 $1 gen
+for file in *.gen; do
+  ../bin/gen2pddgf ${file%.gen}
+done
+cd ..
+cat ca-tubes-$1/*[0-9].gf > ca-tubes-$1.gen
+./bin/gen2pddgf ca-tubes-$1

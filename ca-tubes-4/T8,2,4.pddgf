@@ -1,0 +1,13 @@
+### Copyright (C) 2011-14 Dr.Sc.KAWAMOTO,Takuji (Ext) All Rights Reserved.
+### ca-char Ver 1.3.4alpha
+### 
+C132 (NoA=4,Mirror=T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6d5c6b5b6c5b6b5b6b5b6b,Pdd=12;36;0;0;20;0;0;20;0;12;24;16;0;4) T2,8,4-5b6c5c6d5b6b5b6b5b6d5c6c5c6c5b6c5b
+C132 (NoA=4,Mirror=T2,8,4-5b6c5c6d5b6b5b6b5b6d5c6c5c6c5b6c5b,Pdd=12;36;0;0;20;0;0;20;0;12;24;16;0;4) T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6d5c6b5b6c5b6b5b6b5b6b
+C136 (NoA=4,Mirror=T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6b5b6f5c6b5b6b5b6c5b6b,Pdd=12;36;0;0;20;0;0;8;8;24;0;28;4;4) T2,8,4-6b5b6d5c6c5b6b5b6c5b6d5c6c5c6c5b6c5b
+C136 (NoA=4,Mirror=T2,8,4-6b5b6d5c6c5b6b5b6c5b6d5c6c5c6c5b6c5b,Pdd=12;36;0;0;20;0;0;8;8;24;0;28;4;4) T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6b5b6f5c6b5b6b5b6c5b6b
+C140 (NoA=4,Mirror=T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6c5b6c5b6f5b6b5b6b5c6c,Pdd=12;36;0;0;20;0;0;8;0;28;0;24;12;4) T2,8,4-5b6c5c6d5b6b5b6b5b6c5b6c5b6f5b6b5b6b5c6c
+C140 (NoA=4,Mirror=T2,8,4-5b6c5c6d5b6b5b6b5b6c5b6c5b6f5b6b5b6b5c6c,Pdd=12;36;0;0;20;0;0;8;0;28;0;24;12;4) T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6c5b6c5b6f5b6b5b6b5c6c
+C144 (NoA=4,Mirror=T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6e5b6b5b6f5b6b5b6c5c6c,Pdd=12;36;0;0;20;0;0;8;0;8;16;28;0;16) T2,8,4-5b6c5c6d5b6b5b6b5b6e5b6c5b6e5b6c5b6b5c6c
+C144 (NoA=4,Mirror=T2,8,4-5b6c5c6d5b6b5b6b5b6e5b6c5b6e5b6c5b6b5c6c,Pdd=12;36;0;0;20;0;0;8;0;8;16;28;0;16) T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6e5b6b5b6f5b6b5b6c5c6c
+C148 (NoA=4,Mirror=T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6i5b6b5b6c5b6c5b6c5b6b5b6b,Pdd=12;36;0;0;20;0;0;4;4;12;0;32;8;12;4) T2,8,4-5b6c5c6d5b6b5b6b5b6j5c6c5b6b5b6d5b6b5b6b
+C148 (NoA=4,Mirror=T2,8,4-5b6c5c6d5b6b5b6b5b6j5c6c5b6b5b6d5b6b5b6b,Pdd=12;36;0;0;20;0;0;4;4;12;0;32;8;12;4) T8,2,4-5b6c5b6b5b6c5b6b5b6b5b6i5b6b5b6c5b6c5b6c5b6b5b6b

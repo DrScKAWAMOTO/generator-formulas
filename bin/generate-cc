@@ -1,0 +1,6 @@
+#! /bin/sh
+./bin/moreNoA=3.rb < ring-symmetric=200.pddgf | ./bin/pddgf2cc.rb ring_mtis 1 > cc/RingItem.cc
+./bin/moreNoA=3.rb < carbon-symmetric=200.pddgf | ./bin/pddgf2cc.rb carbon_mtis 2 > cc/CarbonItem.cc
+./bin/moreNoA=3.rb < bond-symmetric=200.pddgf | ./bin/pddgf2cc.rb bond_mtis 3 > cc/BondItem.cc
+./bin/pddgf2cc.rb tube_mtis 4 < ca-tubes-4.pddgf > cc/TubeItem.cc
+./bin/pddgf2cc.rb merged_mtis 5 < merged=100.pddgf > cc/MergedItem.cc

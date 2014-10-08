@@ -1,0 +1,18 @@
+#! /bin/sh
+echo -n "¶À±ÇÂÐ¾Î,  NoA=1 ..... "
+grep MirrorSymmetric $1 | grep -c NoA=1,
+echo -n "¶À±ÇÂÐ¾Î,  NoA=2 ..... "
+grep MirrorSymmetric $1 | grep -c NoA=2,
+echo -n "¶À±ÇÂÐ¾Î,  NoA=3 ..... "
+grep MirrorSymmetric $1 | grep -c NoA=3,
+echo -n "¶À±ÇÂÐ¾Î,  NoA>3 ..... "
+grep MirrorSymmetric $1 | grep -v NoA=1, | grep -v NoA=2, | grep -c -v NoA=3,
+echo -n "¶À±ÇÈóÂÐ¾Î,NoA=1 ..... "
+grep -v MirrorSymmetric $1 | grep -c NoA=1,
+echo -n "¶À±ÇÈóÂÐ¾Î,NoA=2 ..... "
+grep -v MirrorSymmetric $1 | grep -c NoA=2,
+echo -n "¶À±ÇÈóÂÐ¾Î,NoA=3 ..... "
+grep -v MirrorSymmetric $1 | grep -c NoA=3,
+echo -n "¶À±ÇÈóÂÐ¾Î,NoA>3 ..... "
+grep -v MirrorSymmetric $1 | grep -v NoA=1, | grep -v NoA=2, | grep -c -v NoA=3,
+
