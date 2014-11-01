@@ -1,3 +1,0 @@
-#! /bin/sh
-cat bond-symmetric=$1.gf carbon-symmetric=$1.gf ring-symmetric=$1.gf > merged-symmetric=$1.gen
-time ./bin/gen2pddgf merged-symmetric=$1

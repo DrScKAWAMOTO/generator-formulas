@@ -1,3 +1,4 @@
 #! /bin/sh
-cat ordinary=$1.gf bond-symmetric=$1.gf carbon-symmetric=$1.gf ring-symmetric=$1.gf > merged=$1.gen
+echo cat ordinary=$1.pddgf bond-symmetric=$1.pddgf carbon-symmetric=$1.pddgf ring-symmetric=$1.pddgf ">" merged=$1.gen
+cat ordinary=$1.pddgf bond-symmetric=$1.pddgf carbon-symmetric=$1.pddgf ring-symmetric=$1.pddgf > merged=$1.gen
 ./bin/gen2pddgf merged=$1

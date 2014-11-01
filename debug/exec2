@@ -1,0 +1,6 @@
+#! /bin/sh
+ca-parallel exit
+ca-parallel add host local
+ca-parallel add search --ordinary=100 --out=foo A1-
+ca-parallel list hosts
+ca-parallel list processes

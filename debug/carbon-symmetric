@@ -1,0 +1,8 @@
+#! /bin/sh
+ca-parallel exit
+ca-parallel add host j-xdesk
+ca-parallel add host j-rdesk
+ca-parallel add host j-t32c1
+ca-parallel add host j-t32c2
+ca-parallel add host j-t32c3
+ca-parallel add search --symmetric=200 --out=carbon200.gen S6- S7-

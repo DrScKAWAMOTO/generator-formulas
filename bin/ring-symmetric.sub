@@ -1,3 +1,7 @@
 #! /bin/sh
-ca-loop --symmetric=$1 S1- S5-\* --out=ring-symmetric=$1.gen
+if [ "$USE_PARALLEL" = "YES" ]; then
+  ./bin/collect-parallel.sub ring-symmetric=$1.gen --symmetric=$1 "S1- S2- S3- S4- S5-"
+else
+  ca-loop --symmetric=$1 --except-ending S1- S6- --out=ring-symmetric=$1.gen
+fi
 ./bin/gen2pddgf ring-symmetric=$1

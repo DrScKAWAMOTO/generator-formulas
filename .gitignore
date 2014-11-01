@@ -37,6 +37,10 @@
 *.gen
 *.gf
 *.pair
+*.0
+*.1
+*.2
+*.3
 
 # Project Specific extra files
 /ca-tubes*/T*,*,?

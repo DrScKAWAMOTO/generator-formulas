@@ -1,3 +1,5 @@
 #! /bin/sh
+date
 time ./bin/merge.sub 100
 time ./bin/merge.sub 120
+date

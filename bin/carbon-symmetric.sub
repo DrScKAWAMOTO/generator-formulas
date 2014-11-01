@@ -1,3 +1,7 @@
 #! /bin/sh
-ca-loop --symmetric=$1 S6- S7-\* --out=carbon-symmetric=$1.gen
+if [ "$USE_PARALLEL" = "YES" ]; then
+  ./bin/collect-parallel.sub carbon-symmetric=$1.gen --symmetric=$1 "S6- S7-"
+else
+  ca-loop --symmetric=$1 --except-ending S6- S8- --out=carbon-symmetric=$1.gen
+fi
 ./bin/gen2pddgf carbon-symmetric=$1

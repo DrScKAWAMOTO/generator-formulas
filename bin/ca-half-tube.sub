@@ -3,4 +3,3 @@ echo ca-loop --close=1 --tube=500 $1,$2- $1,$2-\* --out=$1,$2.gen
 ca-loop --close=1 --tube=500 $1,$2- $1,$2-\* --out=$1,$2.gen
 echo ca-sort "<" $1,$2.gen "|" ca-uniq ">" $1,$2.$3
 ca-sort < $1,$2.gen | ca-uniq > $1,$2.$3
-rm -f $1,$2.gen

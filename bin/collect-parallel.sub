@@ -1,0 +1,9 @@
+#! /bin/sh
+echo ca-parallel add collector $2 $3 --out=$1
+ca-parallel add collector $2 $3 --out=$1
+echo ca-parallel wait collector done --out=$1
+ca-parallel wait collector done --out=$1
+echo ca-parallel list ranges --out=$1
+ca-parallel list ranges --out=$1
+echo ca-parallel remove collector --out=$1
+ca-parallel remove collector --out=$1

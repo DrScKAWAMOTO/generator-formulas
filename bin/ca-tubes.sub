@@ -13,9 +13,6 @@ cd ca-tubes-$1
 ../bin/ca-tubes.sub2 T8,3 T3,8 $1 gen
 ../bin/ca-tubes.sub2 T7,4 T4,7 $1 gen
 ../bin/ca-tubes.sub2 T6,5 T5,6 $1 gen
-for file in *.gen; do
-  ../bin/gen2pddgf ${file%.gen}
-done
 cd ..
-cat ca-tubes-$1/*[0-9].gf > ca-tubes-$1.gen
+cat ca-tubes-$1/*[0-9].gen > ca-tubes-$1.gen
 ./bin/gen2pddgf ca-tubes-$1

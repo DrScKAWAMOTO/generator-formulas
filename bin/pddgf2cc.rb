@@ -21,7 +21,11 @@ while $stdin.gets
   if $_ =~ /^C(\d+) \(NoA=(\d+),(MirrorSymmetric,)?(Mirror=(.+),)?(Pdd=[0-9;]+)\) (.+)$/
     $Cn = $1.to_i
     $NoA = $2.to_i
-    $NoA = $NoA * 2 if $3
+    if $3
+      $MirrorSymmetric = true
+    else
+      $MirrorSymmetric = false
+    end
     $Mirror = $5
     $Gen = $7
     $already[$5] = true if $Mirror
@@ -38,6 +42,7 @@ while $stdin.gets
       if $Mirror
         key["mirror"] = $Mirror
       end
+      key["mirrorSymmetric"] = $MirrorSymmetric
     end
   end
 end
@@ -69,7 +74,10 @@ $keys.each do |key|
   keys1.each do |key2|
     current2 = current1["contents"][key2]
     $NoA = current2["NoA"]
-    if current2.length == 2
+    if current2["mirrorSymmetric"]
+      $NoA = $NoA.to_s + "M"
+    end
+    if current2.has_key?("mirror")
       current2["id"] = $me
       print "  TreeItem( #{row1}, #{$name} + #{parent1}, 1, #{$name} + #{$child}, \"(NoA=#{$NoA}) #{key2}\" ), /* #{$offset} */\n"
       $child = $child + 1
@@ -86,7 +94,7 @@ $keys.each do |key|
   keys1 = current1["contents"].keys
   keys1.each do |key2|
     current2 = current1["contents"][key2]
-    if current2.length == 3
+    if current2.has_key?("mirror")
       parent2 = current2["id"]
       key3 = current2["mirror"]
       print "  TreeItem( 0, #{$name} + #{parent2}, 0, #{$name} + 0, \"(鏡像) #{key3}\" ), /* #{$offset} */\n"

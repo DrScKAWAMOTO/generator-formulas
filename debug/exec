@@ -1,0 +1,8 @@
+#! /bin/sh
+ca-parallel exit
+ca-parallel add host j-t32c1
+ca-parallel add host j-t32c2
+ca-parallel add host j-t32c3
+ca-parallel add search --ordinary=80 --out=foo A1-
+ca-parallel list hosts
+ca-parallel list processes

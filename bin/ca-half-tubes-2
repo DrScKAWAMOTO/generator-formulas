@@ -1,2 +1,4 @@
 #! /bin/sh
-./bin/ca-half-tubes.sub 2
+date
+time ./bin/ca-half-tubes.sub 2
+date

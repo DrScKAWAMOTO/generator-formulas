@@ -1,8 +1,33 @@
 #! /bin/sh
-echo ca-sort "<" $1.gen "|" ca-uniq ">" $1.gf
-ca-sort < $1.gen | ca-uniq > $1.gf
-echo ca-mirror "<" $1.gf ">" $1.pair
-ca-mirror < $1.gf > $1.pair
-echo ca-char --pentagon-distances --pair=$1.pair $1.gf ">" $1.pddgf
-ca-char --pentagon-distances --pair=$1.pair $1.gf > $1.pddgf
-rm -f $1.gen
+if [ "$USE_DIVIDE" = "3" ]; then
+  echo ca-sort --divide=3 --out=$1.sort "<" $1.gen
+  ca-sort --divide=3 --out=$1.sort < $1.gen
+  echo ssh j-t32c1 ca-char --pentagon-distances "<" $1.sort.0 ">" $1.pddgf.0 "&"
+  ssh j-t32c1 ca-char --pentagon-distances < $1.sort.0 > $1.pddgf.0 &
+  echo ssh j-t32c2 ca-char --no-header --pentagon-distances "<" $1.sort.1 ">" $1.pddgf.1 "&"
+  ssh j-t32c2 ca-char --no-header --pentagon-distances < $1.sort.1 > $1.pddgf.1 &
+  echo ssh j-t32c3 ca-char --no-header --pentagon-distances "<" $1.sort.2 ">" $1.pddgf.2 "&"
+  ssh j-t32c3 ca-char --no-header --pentagon-distances < $1.sort.2 > $1.pddgf.2 &
+  echo wait
+  wait
+  echo cat $1.pddgf.? ">" $1.pddgf
+  cat $1.pddgf.? > $1.pddgf
+elif [ "$USE_DIVIDE" = "4" ]; then
+  echo ca-sort --divide=4 --out=$1.sort "<" $1.gen
+  ca-sort --divide=4 --out=$1.sort < $1.gen
+  echo ssh j-t32c1 ca-char --pentagon-distances "<" $1.sort.0 ">" $1.pddgf.0 "&"
+  ssh j-t32c1 ca-char --pentagon-distances < $1.sort.0 > $1.pddgf.0 &
+  echo ssh j-t32c2 ca-char --no-header --pentagon-distances "<" $1.sort.1 ">" $1.pddgf.1 "&"
+  ssh j-t32c2 ca-char --no-header --pentagon-distances < $1.sort.1 > $1.pddgf.1 &
+  echo ssh j-t32c3 ca-char --no-header --pentagon-distances "<" $1.sort.2 ">" $1.pddgf.2 "&"
+  ssh j-t32c3 ca-char --no-header --pentagon-distances < $1.sort.2 > $1.pddgf.2 &
+  echo ssh j-t32c4 ca-char --no-header --pentagon-distances "<" $1.sort.3 ">" $1.pddgf.3 "&"
+  ssh j-t32c4 ca-char --no-header --pentagon-distances < $1.sort.3 > $1.pddgf.3 &
+  echo wait
+  wait
+  echo cat $1.pddgf.? ">" $1.pddgf
+  cat $1.pddgf.? > $1.pddgf
+else
+  echo ca-sort "<" $1.gen "|" ca-char --pentagon-distances ">" $1.pddgf
+  ca-sort < $1.gen | ca-char --pentagon-distances > $1.pddgf
+fi
